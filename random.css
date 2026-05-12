@@ -1,0 +1,112 @@
+ :root {
+            --sidebar-bg: #1A2A3A;    
+            --accent-color: #00A896;
+            --gold-detail: #C5A059;   
+            --text-gray: #4A4A4A;     
+        }
+
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .cv-container {
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            min-height: 1100px;
+            display: flex;
+        }
+
+     
+        .sidebar {
+            width: 35%;
+            background-color: var(--sidebar-bg);
+            color: white;
+            padding: 40px 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+      
+        .profile-box {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid var(--gold-detail);
+            padding: 5px;
+            margin-bottom: 25px;
+        }
+
+        .profile-box img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .sidebar h2 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .sidebar .job-title {
+            color: var(--accent-color);
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+
+        .contact-item i {
+            color: var(--accent-color);
+            margin-right: 15px;
+            font-size: 1.1rem;
+        }
+
+       
+        .main-content {
+            width: 65%;
+            padding: 50px;
+            color: var(--text-gray);
+        }
+
+        .section-title {
+            color: var(--sidebar-bg);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .experience-item {
+            margin-bottom: 25px;
+        }
+
+        .experience-item h5 {
+            margin-bottom: 2px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .experience-item .date {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            margin-bottom: 8px;
+            display: block;
+        }
